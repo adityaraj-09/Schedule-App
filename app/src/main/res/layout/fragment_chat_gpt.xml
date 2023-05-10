@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".ChatGptFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/srch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/shape_item"
+                android:hint="Enter your search query"
+                android:minHeight="40dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <Button
+                android:id="@+id/get"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="Search"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/srch"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ll"
+            android:orientation="vertical"
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/si"
+                android:hint="Enter your search query"
+                android:textColorHint="@color/black"
+                android:paddingStart="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/shape_item"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:minHeight="40dp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/geti"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="Search"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/srch"
+                android:layout_height="50dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/gi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

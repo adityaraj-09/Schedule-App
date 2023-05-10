@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+
+    tools:context=".DietFragment">
+
+    <RelativeLayout
+        android:id="@+id/rr"
+
+        style="@style/bookF_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/srch_ti"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shape_item"
+                android:backgroundTint="#708E95"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="310dp"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:layout_height="60dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/sb"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Search book"
+                        android:selectAllOnFocus="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <ImageView
+                    android:id="@+id/si"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/search" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+            android:id="@+id/sL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nb"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#F1EAEA"
+            android:orientation="vertical">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/srec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F6EFEF" />
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/nb"
+                android:layout_width="wrap_content"
+                android:text="Nominated books "
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/_18sdp"
+                android:layout_below="@+id/search"
+                style="@style/textView_color"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/svc"
+                style="@style/search_image"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/search"
+            android:id="@+id/mainrec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        style="@style/bookF_bg"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="6dp"
+            android:verticalSpacing="6dp"
+            android:numColumns="3"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

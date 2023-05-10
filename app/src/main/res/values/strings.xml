@@ -1,0 +1,925 @@
+<resources>
+    <string name="app_name">timble</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="anime_premium">[
+  {
+    "art_id": "7827",
+    "animename": "Soul Eater",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/80557-6415401c2672f.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7826",
+    "animename": "Kidou Senshi Gundam",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/82487-641453d6d83d1.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7825",
+    "animename": "Touken Ranbu",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/4805-6413e21c61ca1.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7824",
+    "animename": "Kidou Senshi Gundam",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/95655-641309a5e9547.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7823",
+    "animename": "Touken Ranbu",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/83862-6412d6560a136.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7822",
+    "animename": "Kidou Senshi Gundam",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/98464-6411eeacdd291.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7821",
+    "animename": "Touken Ranbu",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/58145-64115bfe71a97.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7819",
+    "animename": "Kidou Senshi Gundam",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/8478-641004bc48fcc.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7818",
+    "animename": "Blue Lock",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/66997-640f89b95ede3.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7815",
+    "animename": "Blue Lock",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/58119-640d52263b5a3.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7814",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/39108-640cdf88aeef6.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7812",
+    "animename": "Touken Ranbu",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/52657-640c082842c78.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7811",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/11965-640b164a13114.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7809",
+    "animename": "Kidou Senshi Gundam",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/43350-6409aa4a934b3.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7808",
+    "animename": "Blue Lock",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/94049-640969c96bdd3.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7807",
+    "animename": "Touken Ranbu",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/27947-6408822e891a3.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7806",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/36646-64084034ae348.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7805",
+    "animename": "Touken Ranbu",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/36742-640807f4b0de7.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7804",
+    "animename": "Blue Lock",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/7718-6406ceacc1030.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7803",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/96272-640608f36189a.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7801",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/68541-6404ac53e466f.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7800",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/24997-640423bea5021.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7799",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/56655-6403248d2f0f9.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7798",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/84228-6402510de9687.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7797",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/34549-64016b3fa0099.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7796",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/10628-64002b0a4aa94.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7795",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/40313-63ff8522027bd.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7794",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/13750-63fdc78151ab7.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7793",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/97374-63fc6c7dc98b6.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7792",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/52259-63fbbd71aa3fd.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7791",
+    "animename": "Cyberpunk",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/3158-63fa78db8cbd2.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7790",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/53525-63f9a0ab4e93c.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7789",
+    "animename": "Cyberpunk",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/44712-63f97f4089535.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7787",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/99708-63f899a021d28.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7786",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/91209-63f6f9fe15215.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7785",
+    "animename": "Cyberpunk",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/45843-63f5ef281bb6f.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7784",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/32315-63f5c99692e0c.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7783",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/71194-63f3f46e728b9.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7782",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/28206-63f3447db0c92.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7780",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/3860-63f253c938dce.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7779",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/96728-63f22a50d62ea.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7778",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/12099-63f1c5a0cded7.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7776",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/75356-63f0491eb1e95.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7775",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/60668-63ef6473b5c89.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7774",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/16458-63ef163cbb251.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7773",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/62449-63ee1248eb648.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7772",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/75300-63ed32b92b3c6.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7771",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/54158-63ec80825c73d.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7770",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/38072-63ebd3db50577.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7769",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/56380-63ea7f609eed1.jpeg",
+    "sensitivity": 0
+  }
+]</string>
+    <string name="anime_boy">
+    [
+  {
+    "art_id": "7779",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/96728-63f22a50d62ea.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7778",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/12099-63f1c5a0cded7.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7776",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/75356-63f0491eb1e95.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7775",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/60668-63ef6473b5c89.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7774",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/16458-63ef163cbb251.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7773",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/62449-63ee1248eb648.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7772",
+    "animename": "Lycoris Recoil",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/75300-63ed32b92b3c6.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7771",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/54158-63ec80825c73d.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7770",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/38072-63ebd3db50577.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7769",
+    "animename": "Bocchi the Rock!",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/56380-63ea7f609eed1.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7801",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/md/2023/03/68541-6404ac53e466f.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7789",
+    "animename": "Cyberpunk",
+    "arturl": "https://images.animefansbase.com/artwork/md/2023/02/44712-63f97f4089535.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7784",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/md/2023/02/32315-63f5c99692e0c.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7766",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/md/2023/02/73482-63e87b0c4e9d4.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7756",
+    "animename": "Naruto",
+    "arturl": "https://images.animefansbase.com/artwork/md/2023/02/70189-63dd41b2560de.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7728",
+    "animename": "Chainsaw Man",
+    "arturl": "https://images.animefansbase.com/artwork/md/2023/01/zhztmngzjpeg-973136.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7697",
+    "animename": "Chainsaw Man",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/12/fzxvupizjpeg-356294.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7693",
+    "animename": "Chainsaw Man",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/12/zfcjoyszjpeg-968383.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7654",
+    "animename": "Chainsaw Man",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/12/zzzzzzzminzjpg-731470.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7652",
+    "animename": "Chainsaw Man",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/12/zzzzzzzminzjpg-777152.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7648",
+    "animename": "Chainsaw Man",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/12/zzzzzzzminzjpg-355563.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7633",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/12/uziaqewzjpg-442659.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7609",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/szldvzgzjpg-697409.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7593",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/xyhuhaozjpg-824458.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7589",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/lzzzzwizjpg-710404.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7583",
+    "animename": "Shigatsu wa Kimi no Uso",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/zvwsipzzjpg-526033.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7575",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/fxbahbczjpg-466952.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7564",
+    "animename": "Chainsaw Man",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/zzzzzzzminzpng-51079.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7563",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/jzmcziuzjpg-523616.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7558",
+    "animename": "Genshin Impact",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/zzzzzzzzzzzzzzzz-946100.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7556",
+    "animename": "Genshin Impact",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/fdpzljoxkaauswdz-100118.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7552",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/jxyjztzzjpg-260838.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7546",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/wywgpwazjpg-33892.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7542",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/zzudzzazjpg-798645.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7540",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/fdzczzpvuamnvzwz-677924.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7536",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/xybiusdzjpg-906224.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7534",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/lxzpszczjpg-708744.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7524",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/zqnszwkzjpg-260763.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7514",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/zdzezzzzzcdzzecz-941690.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7508",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/tzjryfzzjpg-261242.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7502",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/izdzruszjpg-415034.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7500",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/oogwtjzzjpg-371576.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7496",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/11/rflnuqdzjpg-202203.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7484",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/10/xyiczznzjpg-378352.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7478",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/10/uetzniqzjpg-477646.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7465",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/10/ziybllzzjpg-942009.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7457",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/10/ayxuxybzjpg-283435.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7451",
+    "animename": "Yuri!!! on Ice",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/10/yixgfbyzjpg-906892.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7445",
+    "animename": "Vanitas no Karte",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/10/vxzczgzzjpeg-344560.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7443",
+    "animename": "Ouran Koukou Host Club",
+    "arturl": "https://images.animefansbase.com/artwork/md/2022/10/imgzzbzzacezzpng-892304.jpg",
+    "sensitivity": 0
+  }
+
+
+
+
+]
+  </string>
+    <string name="anime_illustration">
+    [
+  {
+    "art_id": "7820",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/79221-6410c80253a64.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7817",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/8921-640f08406947e.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7816",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/3427-640ea2ba4c8cf.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7813",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/66403-640c65dd8b0aa.jpeg",
+    "sensitivity": 1
+  },
+  {
+    "art_id": "7810",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/51442-640ae142b68fc.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7802",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/03/65751-6405aaa48eb64.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7777",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/43355-63f1148e4de68.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7764",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/02/13166-63e5bf89c8c47.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7747",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/16442-63d622183b331.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7745",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/17357-63d3480e5260b.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7740",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/fgozgniuoaannbiz-683430.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7739",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/fybzzteaqaazzxvz-766375.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7738",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/cazzdfdzczzzzzzz-726902.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7737",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/zddfzzzazezezzzz-560083.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7733",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/feozvwpakaepzqcz-328452.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7729",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/imgzzzzzzzzzzzzz-283784.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7727",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/fkzoqelagaapdemz-960920.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7726",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/imgzzzzzzzzzzzzz-484999.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7725",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2023/01/zzzzzzzzzzzzzzzz-883899.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7717",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/ezzzyfovkamaxblz-27423.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7715",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/ggoaolczvmzjpeg-731291.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7711",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/imgzzdzzzfbfzjpe-164811.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7710",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/yandezrezzzzzzzz-874694.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7704",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/bbcdzzfczdezzzzc-238944.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7698",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/eqadcxhvqamnzjxz-51272.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7672",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/originalzanimezg-302700.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7669",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/animezpictureszn-359627.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7667",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/imgzacazzzczzjpe-567904.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7665",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/okatsukiseizfull-165400.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7663",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/originalzanimezg-299245.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7661",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/tumblrzzfzdzzbzb-703001.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7660",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/fzpxszpzexzazzjp-939613.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7659",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/tzzqtzkzxzpzzzjp-700563.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7655",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/zzzzzzzzjpg-302483.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7653",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/imgzzzzzeezzzjpe-429838.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7650",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/zacczzczfezazafz-41937.jpeg",
+    "sensitivity": 1
+  },
+  {
+    "art_id": "7649",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/fuaeaesamaezzokz-476067.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7647",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/zzoriginalzdrawn-8907.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7646",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/fgwzocoagaanytdz-176428.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7645",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/ffzygttauaazltaz-691627.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7637",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/jfnzwiaywzrzzzjp-103282.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7635",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/fgzhoolwqaazztkz-790815.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7631",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/zzzzzzzzzzzzeazb-391042.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7627",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/ffhgaopwyaakzzuz-204164.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7625",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/zzoriginalzdrawn-141907.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7623",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/samplezczzdzbzzz-309876.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7621",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/samplezdbczazdzz-738914.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7619",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/zzoriginalzdrawn-556451.jpg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7614",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/sxzzcswzhyzzhyrw-46756.jpeg",
+    "sensitivity": 0
+  },
+  {
+    "art_id": "7613",
+    "animename": "Illustration",
+    "arturl": "https://images.animefansbase.com/artwork/ori/2022/12/eskasytuzaaotiwz-491391.jpeg",
+    "sensitivity": 0
+  }
+]
+
+  </string>
+
+
+</resources>

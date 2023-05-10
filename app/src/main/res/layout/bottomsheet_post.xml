@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bs_item"
+    android:orientation="vertical"
+    android:id="@+id/sheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:layout_margin="10dp"
+            android:text="Choose what to do"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout
+            android:id="@+id/lay_share"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:elevation="@dimen/_20sdp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bs_item"
+            app:ccll_custom_shadow_color="#FEB545"
+            app:ccll_custom_shadow_radius="5dp"
+            android:backgroundTint="@color/purple_500"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/share"
+                android:contentDescription="TODO"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Share"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+        </io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
+
+        <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout
+            android:id="@+id/lay_del"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bs_item"
+            app:ccll_custom_shadow_color="#FEB545"
+            app:ccll_custom_shadow_radius="5dp"
+            android:backgroundTint="@color/purple_500"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/delete"
+                android:contentDescription="TODO"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Delete"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+        </io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
+
+        <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout
+            android:id="@+id/lay_save"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bs_item"
+            app:ccll_custom_shadow_color="#FEB545"
+            app:ccll_custom_shadow_radius="5dp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:elevation="@dimen/_20sdp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_500"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/save"
+                android:contentDescription="TODO"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Save"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+        </io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout
+            android:id="@+id/lay_qr"
+            android:background="@drawable/bs_item"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:ccll_custom_shadow_color="#FEB545"
+            android:elevation="@dimen/_20sdp"
+            app:ccll_custom_shadow_radius="5dp"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_500"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/save"
+                android:contentDescription="TODO"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingLeft="10dp"
+                android:text="Qrcode"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+        </io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
+
+        <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout
+            android:background="@drawable/bs_item"
+            android:id="@+id/lay_edit"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="@dimen/_25sdp"
+            app:ccll_custom_shadow_color="#FEB545"
+            app:ccll_custom_shadow_radius="5dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_500"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/save"
+                android:contentDescription="TODO"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Edit"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+        </io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
+
+        <io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout
+            android:id="@+id/lay_doc"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="@dimen/_25sdp"
+            app:ccll_custom_shadow_color="#FEB545"
+            app:ccll_custom_shadow_radius="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bs_item"
+            android:backgroundTint="@color/purple_500"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/save"
+                android:contentDescription="TODO"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Save"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+        </io.devlight.xtreeivi.cornercutlinearlayout.CornerCutLinearLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/qri"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg1"/>
+    <LinearLayout
+        android:id="@+id/edit_des"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_item"
+            android:backgroundTint="#8AA0A5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/task" />
+
+            <EditText
+                android:id="@+id/newdes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:hint="Description"
+                android:inputType="text"
+                android:selectAllOnFocus="true" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/up_des"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Upload"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_login"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/time"
+            app:showAsAction="ifRoom"
+            android:title="Class Schedule" />
+        <item
+            android:id="@+id/mess"
+            android:title="Books"
+            android:icon="@drawable/about"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/Post"
+            android:icon="@drawable/gallery"
+            android:title="Posts"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/others"
+            android:title="Others" >
+            <menu>
+                <item
+                    android:id="@+id/users"
+                    android:title="Users"
+                    android:icon="@drawable/user"
+                    app:showAsAction="ifRoom"
+                    />
+                <item
+                    android:id="@+id/cg"
+                    android:title="ChatGPT"
+                    android:icon="@drawable/folder1"
+                    app:showAsAction="ifRoom"/>
+            </menu>
+        </item>
+
+
+
+
+
+</menu>

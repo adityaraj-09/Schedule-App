@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/schedule">
+
+    <fragment
+        android:id="@+id/mess"
+        android:name="com.example.timble.DietFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_diet" />
+    <fragment
+        android:id="@+id/schedule"
+        android:name="com.example.timble.ScheduleFragment"
+        android:label="Class Schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/Post"
+        android:name="com.example.timble.PostFragment"
+        android:label="Posts"
+        tools:layout="@layout/fragment_post" />
+    <activity
+        android:id="@+id/users"
+        android:name="com.example.timble.HomeActivity"
+        android:label="Users"
+        tools:layout="@layout/activity_home"/>
+    <fragment
+        android:id="@+id/cg"
+        android:name="com.example.timble.ChatGptFragment"
+        android:label="ChatGPT"
+        tools:layout="@layout/fragment_post" />
+
+</navigation>

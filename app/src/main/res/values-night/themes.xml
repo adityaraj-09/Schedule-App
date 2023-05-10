@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Timble" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="search_image">
+        <item name="android:src">@drawable/book_searchw</item>
+    </style>
+    <style name="bookF_bg">
+        <item name="background">@color/black</item>
+    </style>
+    <style name="primary700">
+        <item name="android:background" >@color/black</item>
+    </style>
+    <style name="schedule_frame">
+        <item name="android:background" >@drawable/gra_night</item>
+    </style>
+    <style name="schedule_bg">
+        <item name="android:background">@drawable/schedule_bg_night</item>
+    </style>
+    <style name="cir_bgTint">
+        <item name="android:backgroundTint">@color/black</item>
+    </style>
+    <style name="bg_color">
+        <item name="android:backgroundTint">@color/black</item>
+    </style>
+    <style name="textView_color">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="navView_color">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="schedule_greet">
+        <item name="android:background">@drawable/frame_1_night</item>
+    </style>
+    <style name="tint">
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="gif">
+        <item name="android:src">@drawable/work
+        </item>
+    </style>
+
+</resources>
